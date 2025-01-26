@@ -18,8 +18,8 @@
 
 - name: include from common role
   include_role:
-  - common
-  tasks_from: main
+    name:common
+    tasks_from: main
 
 # - name: creating directory
 #   ansible.builtin.file:
