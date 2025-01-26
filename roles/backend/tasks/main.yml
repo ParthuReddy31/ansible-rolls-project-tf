@@ -37,8 +37,8 @@
     path: /app
 
 - name: copying backend service
-  ansible.builtin.copy:
-    src: backend.service
+  ansible.builtin.template: #copy is absolute method, in roles we access file relatively, we have to mention where the file is..
+    src: backend.service.j2
     dest: /etc/systemd/system/backend.service
 
 - name: install libraries
