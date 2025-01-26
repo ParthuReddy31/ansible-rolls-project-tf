@@ -18,7 +18,7 @@
 
 - name: include from common role
   include_role:
-    name:common
+    name: common
     tasks_from: main
 
 # - name: creating directory
