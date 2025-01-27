@@ -1,1 +1,5 @@
 BACKEND_HOST: backend.parthudevops.space
+
+APP_LOCATION: /usr/share/nginx/html
+
+COMPONENT: frontend
