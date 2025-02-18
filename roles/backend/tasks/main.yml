@@ -16,9 +16,9 @@
   ansible.builtin.user:
     name: expense
 
-- name: installing dependencies
-  community.general.npm:
-    path: /app
+# - name: installing dependencies
+#   community.general.npm:
+#     path: /app
 
 - name: copying backend service
   ansible.builtin.template: #copy is absolute method, in roles we access file relatively, we have to mention where the file is..
