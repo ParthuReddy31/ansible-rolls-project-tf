@@ -1,4 +1,5 @@
 # MYSQL_HOST: mysql.parthudevops.space
+MYSQL_HOST: "mysql-{{ ENVIRONMENT }}.parthudevops.space"
 MYSQL_USER: root
 MYSQL_PASSWORD: ExpenseApp@1
 
