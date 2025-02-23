@@ -1,4 +1,4 @@
-BACKEND_HOST: backend.parthudevops.space
+BACKEND_HOST: backend.app-{{ ENVIRONMENT }}.parthudevops.space
 
 APP_LOCATION: /usr/share/nginx/html
 
